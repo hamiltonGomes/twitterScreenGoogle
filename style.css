@@ -1,5 +1,97 @@
 @import url('http://fonts.cdnfonts.com/css/chirp-2');
 
 *{
-    font-family:'Chirp', sans-serif; ;
+    font-family:'Chirp', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    font-size: 100%;
+}
+
+body {
+margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+        width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icons {
+    width: 17px;
+    height: 17px;
+}
+
+.divCapa {
+    width: 800px;
+    height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(images/capaGoogle.jpeg);
+}
+
+.googleIcon {
+    position: relative;
+    width: 25%;
+    height: 10%;
+    border-radius: 50%;
+    border: 4px solid #fff ;
+    margin-top: 30%;
+    margin-left: 20px;
+}
+
+.buttonsTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonsTop2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 38%;
+    margin-right: 20px;
+}
+
+.buttonReti {
+    font-weight: bolder;
+    font-size: 22px;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 2.5em;
+    border: 1px solid rgba(128, 128, 128, 0.475);
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.buttonFollow {
+    width: 100px;
+    height: 45px;
+    border-radius: 2.5em;
+    color: #fff;
+    border: 2px solid white;
+    background-color: black;
+}
+
+.buttonReti:hover {
+    background: #F7F9F9;
+}
+
+.buttonFollow:hover {
+    background: rgba(0, 0, 0, 0.861);
 }
