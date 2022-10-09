@@ -12,20 +12,29 @@
 
 body {
 margin: 0;
+display: flex;
+justify-content: center;
 }
 
 button {
     cursor: pointer;
 }
 
+a{
+    text-decoration: none;
+    color: rgb(29, 155, 240);
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
 .container {
-        width: 100vw;
-    height: 100vh;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .icons {
@@ -33,9 +42,16 @@ button {
     height: 17px;
 }
 
+.icons1 {
+    width: 23px;
+    height: 23px;
+    margin: 4px;
+    align-items;
+}
+
 .divCapa {
     width: 800px;
-    height: 400px;
+    height: 300px;
     position: relative;
     background-position: center;
     background-size: contain;
@@ -49,11 +65,12 @@ button {
     height: 10%;
     border-radius: 50%;
     border: 4px solid #fff ;
-    margin-top: 30%;
+    margin-top: 24%;
     margin-left: 20px;
 }
 
 .buttonsTop {
+    margin-top: 0px;
     display: flex;
     justify-content: space-between;
 }
@@ -62,7 +79,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 38%;
+    margin-top: 31%;
     margin-right: 20px;
 }
 
@@ -80,6 +97,7 @@ button {
 }
 
 .buttonFollow {
+    font-weight: 600;
     width: 100px;
     height: 45px;
     border-radius: 2.5em;
@@ -95,3 +113,38 @@ button {
 .buttonFollow:hover {
     background: rgba(0, 0, 0, 0.861);
 }
+
+.name {
+    position: relative;
+    width: 43%;
+    margin-top: 110px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2px;
+}
+
+.arroba {
+    font-size: 20px;
+    color: rgb(83, 100, 113);
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.hashtag{
+    font-size: 20px;
+    color: rgb(29, 155, 240);
+    margin-bottom: 15px;
+}
+
+.nameVerifier {
+    font-size: 26px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+
+
+
