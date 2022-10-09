@@ -205,7 +205,8 @@ ul{
 .tweets {
     border-bottom: 5px solid #1A8CD8;
     padding-bottom: 15px;
-    font-weight: bolder;
+    font-weight: bold;
+    color: black;
 }
 
 .tweetsButton:hover, .tweetsReplysButton:hover, .mediaButton:hover, .likesButton:hover {
