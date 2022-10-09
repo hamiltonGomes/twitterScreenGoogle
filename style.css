@@ -11,9 +11,9 @@
 }
 
 body {
-margin: 0;
-display: flex;
-justify-content: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 button {
@@ -34,8 +34,11 @@ a:hover{
     text-decoration:underline;
 }
 
-ul {
+ul{
     list-style: none;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .container {
@@ -172,7 +175,6 @@ ul {
     display: flex;
     flex-flow: row wrap;
     line-height: 1.2;
-    border: 1px solid red;
 }
 
 .stats {
@@ -182,35 +184,27 @@ ul {
     margin: 20px;
 }
 
-ul{
-    width: 800px;
-    display: flex;
-    justify-content: space-evenly;
-    border: 1px solid red;
-}
-
 .tweets {
     border-bottom: 5px solid #1A8CD8;
-/*     padding-bottom: 20px; */
+    padding-bottom: 15px;
     font-weight: bolder;
-/*     border-radius: 10%; */
 }
-
-/* .tweetsReplys, .media, .like {
-    padding-bottom: 20px;
-} */
 
 .tweetsButton:hover, .tweetsReplysButton:hover, .mediaButton:hover, .likesButton:hover {
-    background-color: rgba(128, 128, 128, 0.316);
+    background-color: rgba(128, 128, 128, 0.166);
+    transition-duration: 0.2s;
 }
 
-.tweetsButton, .mediaButton, .likesButton {
+.tweetsButton, .mediaButton, .likesButton, .tweetsReplysButton {  
     width: 800px;
+    font-size: 20px;
     background-color: transparent;
-    padding: 30px 40px 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color:rgb(83, 100, 113);
 }
 
-/* .tweets, .tweetsReplys, .media, .likes {
-
-} */
+.tweetsReplysButton {
+    padding-left: 31px;
+    padding-right: 31px;
+}
