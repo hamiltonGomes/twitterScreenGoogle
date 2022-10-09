@@ -20,6 +20,11 @@ button {
     cursor: pointer;
 }
 
+b{
+    color: black;
+    font-weight: bolder;
+}
+
 a{
     text-decoration: none;
     color: rgb(29, 155, 240);
@@ -27,6 +32,10 @@ a{
 
 a:hover{
     text-decoration:underline;
+}
+
+ul {
+    list-style: none;
 }
 
 .container {
@@ -38,8 +47,20 @@ a:hover{
 }
 
 .icons {
-    width: 17px;
-    height: 17px;
+    width: 18px;
+    height: 18px;
+}
+
+.iconLink {
+    width: 18px;
+    height: 18px;
+    margin-left: 16px;
+}
+
+.iconInfo {
+    width: 18px;
+    height: 18px;
+    margin-right: 16px;
 }
 
 .icons1 {
@@ -85,10 +106,10 @@ a:hover{
 
 .buttonReti {
     font-weight: bolder;
-    font-size: 22px;
+    font-size: 24px;
     margin: 10px;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border-radius: 2.5em;
     border: 1px solid rgba(128, 128, 128, 0.475);
     display: flex;
@@ -115,7 +136,6 @@ a:hover{
 }
 
 .name {
-    position: relative;
     width: 43%;
     margin-top: 110px;
     margin-left: 20px;
@@ -123,7 +143,6 @@ a:hover{
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 2px;
 }
 
 .arroba {
@@ -146,5 +165,52 @@ a:hover{
     align-items: center;
 }
 
+.description {
+    color: rgb(83, 100, 113);
+    width: 800px;
+    padding-left: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    line-height: 1.2;
+    border: 1px solid red;
+}
 
+.stats {
+    gap: 30px;
+    color: rgb(83, 100, 113);
+    display: flex;
+    margin: 20px;
+}
 
+ul{
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+
+.tweets {
+    border-bottom: 5px solid #1A8CD8;
+/*     padding-bottom: 20px; */
+    font-weight: bolder;
+/*     border-radius: 10%; */
+}
+
+/* .tweetsReplys, .media, .like {
+    padding-bottom: 20px;
+} */
+
+.tweetsButton:hover, .tweetsReplysButton:hover, .mediaButton:hover, .likesButton:hover {
+    background-color: rgba(128, 128, 128, 0.316);
+}
+
+.tweetsButton, .mediaButton, .likesButton {
+    width: 800px;
+    background-color: transparent;
+    padding: 30px 40px 0px;
+    color:rgb(83, 100, 113);
+}
+
+/* .tweets, .tweetsReplys, .media, .likes {
+
+} */
